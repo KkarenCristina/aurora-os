@@ -34,6 +34,10 @@ Cada usuário cria sua própria conta e vê apenas os próprios dados.
 
 Instruções completas de instalação e deploy estão em [`aurora-os/README.md`](./aurora-os/README.md).
 
+## 🤝 Processo
+
+A ideia, a estrutura de organização de vida e todas as decisões de produto (o que rastrear, como organizar cada módulo) são minhas, originadas de um template pessoal que eu já usava no Notion. A implementação técnica (código, banco de dados e deploy) foi construída com apoio do **Claude (Anthropic)**, com quem colaborei ao longo de todo o processo — da estrutura do banco de dados até a configuração do deploy.
+
 ---
 
 Feito com 💜 por [Karen Cristina](https://github.com/KkarenCristina)
