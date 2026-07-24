@@ -23,6 +23,12 @@ Inspirado em um template pessoal de Notion, recriado como uma aplicação web co
 
 Cada usuário cria sua própria conta e vê apenas os próprios dados.
 
+## 📸 Capturas de tela
+<img width="1918" height="967" alt="imagem dashboard" src="https://github.com/user-attachments/assets/84893c1c-e83b-4433-85e9-8f27d6c92037" />
+
+
+
+
 ## 🛠️ Tecnologias
 
 - [Next.js](https://nextjs.org) (App Router) + TypeScript
@@ -40,4 +46,4 @@ A ideia, a estrutura de organização de vida e todas as decisões de produto (o
 
 ---
 
-Feito com 💜 por [Karen Cristina](https://github.com/KkarenCristina)
+Feito por [Karen Cristina](https://github.com/KkarenCristina)
