@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Fraunces", serif;
+  --font-body: "Public Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+html, body {
+  background: #F5F5FB;
+  color: #1D1B31;
+}
+
+* {
+  border-color: #E4E1F0;
+}
+
+::selection {
+  background: #E85D75;
+  color: white;
+}
+
+.card {
+  @apply bg-white border border-dawn-border rounded-xl2 shadow-sm;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white bg-dawn-indigo hover:bg-[#3d3364] transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-dawn-ink bg-white border border-dawn-border hover:border-dawn-indigo transition-colors;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium text-dawn-muted hover:text-dawn-ink hover:bg-dawn-bg transition-colors;
+}
+
+.input {
+  @apply w-full rounded-lg border border-dawn-border bg-white px-3 py-2 text-sm text-dawn-ink placeholder:text-dawn-muted focus:outline-none focus:ring-2 focus:ring-dawn-rose/40 focus:border-dawn-rose;
+}
+
+.textarea {
+  @apply input min-h-[100px] resize-y;
+}
+
+.section-eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.14em] text-dawn-muted;
+}
+
+.page-title {
+  @apply font-display text-3xl md:text-4xl text-dawn-ink;
+}
+
+.checkbox {
+  @apply h-5 w-5 rounded border-2 border-dawn-border text-dawn-rose focus:ring-dawn-rose/40 cursor-pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
